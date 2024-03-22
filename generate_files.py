@@ -1,6 +1,5 @@
 for i in range(1, 20):
    filename = f"sesion_{i}.html"
-   current_session_number = i
    with open(filename, "w") as file:
        text = """
 <!DOCTYPE html>
@@ -43,5 +42,5 @@ for i in range(1, 20):
        </nav>
    </body>
 </html>
-""".format(filename=filename, current_session_number=current_session_number)
+"""
        file.write(text)
