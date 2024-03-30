@@ -1,3 +1,19 @@
+@font-face 
+{
+    font-family: 'f1';
+    src: url('Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+:root
+{
+    font-family: f1;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
     margin: 0px;

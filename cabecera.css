@@ -1,10 +1,15 @@
 #cabecera
 {
-
+    display: flex;
+    height: 60px;
+    width: 100%;
+    /* border: solid 1px red; */
+    box-sizing: border-box;
+    box-shadow: 0dvw 1dvw .5dvw rgba(0,0,0,.321);
 }
 #logo_contenedor
 {
-
+    margin-right: auto;
 }
 #logo_imgen
 {
@@ -14,25 +19,42 @@
 
 #navegacion_contenedor
 {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4dvw;
+    border: none !important;
 }
 .navegacion_contenedor_link
 {
-
+    text-decoration: none;
+    color: black;
 }
 .boton_de_accion
 {
-
+    background: black;
+    color: white;
+    padding: .5dvw 2dvw;
 }
 
 
 #inicio_sesion_boton
 {
-
+    display: flex;
+    margin-left: 4dvw;
+    width: 60px;
+    height: 100%;
+    padding: 1dvw;
+    background: rgb(50, 98, 255);
 }
 #inicio_sesion_boton_contenerdor_imagen
 {
-
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5dvw;
 }
 #inicio_sesion_boton_imagen
 {
