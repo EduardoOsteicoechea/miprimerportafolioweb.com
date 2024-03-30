@@ -1,6 +1,13 @@
-#cabecera
-{
-    background: rgb(211, 224, 225);
-    height: 60px;
-    display: flex;
-}
+cabecera
+logo_contenedor
+logo_imgen
+
+
+navegacion_contenedor
+navegacion_contenedor_link
+boton_de_accion
+
+
+inicio_sesion_boton
+inicio_sesion_boton_contenerdor_imagen
+inicio_sesion_boton_imagen
