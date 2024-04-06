@@ -1,0 +1,53 @@
+#hero_contenedor
+{
+    display: flex;
+    align-items: center;
+    height: 48dvw;
+    width: 100dvw;
+    background: rgb(94, 94, 94);
+    overflow: hidden;
+    z-index: 0;
+}
+#imagen_de_fondo
+{
+    position: absolute;
+}
+
+#degradado_de_fondo
+{
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+    background-image: linear-gradient(45deg, #ff0000, #ff00ff);
+    position: absolute;
+    opacity: .81;
+}
+
+#contenedor_de_mensaje
+{
+    background: rgba(0, 13, 255, 0.312);
+    height: fit-content;
+    padding: 4dvw 6dvw;
+}
+#contenedor_de_mensaje > h1
+{
+    color: white;
+    border-bottom: solid .5dvw white;
+    width: fit-content;
+    padding: 0 0 2dvw 0;
+}
+#contenedor_de_mensaje > p
+{
+    color: rgb(245, 151, 229);
+}
+#contenedor_de_mensaje > div
+{
+    display: flex;
+    gap: 2dvw;
+}
+#contenedor_de_mensaje > div > button
+{
+    border: none;
+    height: 3dvw;
+    width: 10dvw;
+}
