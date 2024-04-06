@@ -60,3 +60,14 @@
 {
 
 }
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    #navegacion_contenedor
+    {
+        display: none;
+    }
+}

@@ -2,8 +2,8 @@
 {
     display: flex;
     align-items: center;
-    height: 48dvw;
-    width: 100dvw;
+    height: 100%;
+    width: 100%;
     background: rgb(94, 94, 94);
     overflow: hidden;
     z-index: 0;
@@ -20,14 +20,14 @@
     /* background: red; */
     background-image: linear-gradient(45deg, #ff0000, #ff00ff);
     position: absolute;
-    opacity: .81;
+    opacity: .31;
 }
 
 #contenedor_de_mensaje
 {
     background: rgba(0, 13, 255, 0.312);
-    height: fit-content;
-    padding: 4dvw 6dvw;
+    height: 100%;
+    padding: 20dvw 6dvw;
 }
 #contenedor_de_mensaje > h1
 {
@@ -48,6 +48,44 @@
 #contenedor_de_mensaje > div > button
 {
     border: none;
-    height: 3dvw;
-    width: 10dvw;
+    height: 10%;
+    width: 10%;
+}
+
+@media screen and (max-width: 622px) {
+    #hero_contenedor
+    {
+        display: flex;
+        align-items: center;
+        height: 160dvw;
+        width: 100dvw;
+        background: rgb(94, 94, 94);
+        overflow: hidden;
+        z-index: 0;
+    }
+    #contenedor_de_mensaje > div > button
+    {
+        border: none;
+        height: 4dvw;
+        width: 15dvw;
+    }
+}
+@media screen and (max-width: 500px) {
+    #hero_contenedor
+    {
+        display: flex;
+        align-items: center;
+        height: 120dvw;
+        width: 100dvw;
+        background: rgb(94, 94, 94);
+        overflow: hidden;
+        z-index: 0;
+    }
+    
+#contenedor_de_mensaje > div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2dvw;
+}
 }
